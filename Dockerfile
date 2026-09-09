@@ -1,6 +1,6 @@
 
 # Python Based Docker
-FROM python:latest
+FROM python:3.10-slim-bullseye
 
 # Installing Packages
 RUN apt update && apt upgrade -y
